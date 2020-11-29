@@ -5,6 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
+    android:background="@drawable/fondo1"
 android:layout_margin="10dp"
 tools:context=".ui.dashboard.DetalleUsuario">
 
@@ -216,7 +217,7 @@ tools:context=".ui.dashboard.DetalleUsuario">
                     android:layout_weight="1"
                     android:text="editar"
                     android:layout_width="0dp"
-                    android:background="@android:color/holo_blue_light"
+                    android:background="@android:color/holo_green_light"
                     android:layout_height="wrap_content"/>
 
                 <Button
@@ -225,7 +226,7 @@ tools:context=".ui.dashboard.DetalleUsuario">
                     android:layout_marginLeft="15dp"
                     android:textColor="@android:color/white"
                     android:text="Borrar"
-                    android:background="@color/colorPrimary"
+                    android:background="#F44336"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 

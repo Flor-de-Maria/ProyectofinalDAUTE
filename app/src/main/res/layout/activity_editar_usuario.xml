@@ -3,6 +3,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
 tools:context=".ui.dashboard.EditarUsuario">
 
 <!-- TODO: Update blank fragment layout -->
@@ -256,9 +257,10 @@ tools:context=".ui.dashboard.EditarUsuario">
                 android:id="@+id/btnUpdateUser"
                 android:layout_weight="1"
                 android:text="Actualizar"
+                android:textSize="40px"
                 android:textColor="@android:color/white"
                 android:layout_width="0dp"
-                android:background="@android:color/holo_blue_dark"
+                android:background="@android:color/holo_green_light"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>

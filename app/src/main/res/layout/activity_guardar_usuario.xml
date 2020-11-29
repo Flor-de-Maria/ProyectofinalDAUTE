@@ -3,6 +3,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
 tools:context=".ui.dashboard.GuardarUsuario">
 
 <!-- TODO: Update blank fragment layout -->
@@ -252,7 +253,8 @@ tools:context=".ui.dashboard.GuardarUsuario">
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
-            android:text="yyyy-MM-dd HH:mm:ss"/>
+            android:textColor="#000"
+            android:text="YYYY-MM-DD HH:mm:ss"/>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -266,9 +268,10 @@ tools:context=".ui.dashboard.GuardarUsuario">
                 android:id="@+id/btnSaveUse"
                 android:layout_weight="1"
                 android:text="Guardar"
+                android:textSize="50px"
                 android:textColor="@android:color/white"
                 android:layout_width="0dp"
-                android:background="@android:color/holo_blue_dark"
+                android:background="@android:color/holo_green_light"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>

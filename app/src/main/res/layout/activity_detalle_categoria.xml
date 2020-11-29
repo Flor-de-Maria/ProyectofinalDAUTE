@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
+    android:background="@drawable/fondo1"
     tools:context=".ui.home.DetalleCategoria">
 
     <TextView
         android:layout_marginTop="40dp"
         android:text="DETALLE DE CATEGORIA"
+        android:textColor="#050505"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_width="match_parent"
@@ -114,7 +116,7 @@
                     android:layout_weight="1"
                     android:text="editar"
                     android:layout_width="0dp"
-                    android:background="@android:color/holo_blue_light"
+                    android:background="@android:color/holo_green_light"
                     android:layout_height="wrap_content"/>
 
                 <Button
@@ -123,7 +125,7 @@
                     android:layout_marginLeft="15dp"
                     android:textColor="@android:color/white"
                     android:text="Borrar"
-                    android:background="@color/colorPrimary"
+                    android:background="#F44336"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
