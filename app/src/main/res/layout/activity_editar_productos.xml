@@ -22,7 +22,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="20dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray"
+            android:textColorHint="@android:color/black"
             android:layout_height="wrap_content">
 
             <EditText
@@ -31,7 +31,7 @@ tools:context=".ui.notifications.EditarProductos">
                 android:drawablePadding="10dp"
                 android:paddingLeft="1dp"
                 android:drawableStart="@drawable/id_pass"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:ems="10"
                 android:hint="Id producto"
                 android:inputType="number"
@@ -49,7 +49,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtNombreProductoUp"
@@ -57,7 +57,7 @@ tools:context=".ui.notifications.EditarProductos">
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:drawablePadding="10dp"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:drawableStart="@drawable/txt_name"
                 android:paddingLeft="1dp"
                 android:ems="10"
@@ -75,14 +75,14 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray"
+            android:textColorHint="@android:color/black"
             >
 
             <EditText
                 android:id="@+id/edtDescripcionUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:drawablePadding="10dp"
                 android:drawableStart="@drawable/ic_descrip"
                 android:paddingLeft="1dp"
@@ -100,7 +100,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtStockUp"
@@ -110,7 +110,7 @@ tools:context=".ui.notifications.EditarProductos">
                 android:drawablePadding="10dp"
                 android:paddingLeft="1dp"
                 android:ems="10"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:drawableStart="@drawable/ic_stck"
                 android:hint="Stock"
                 android:textSize="14dp"
@@ -126,7 +126,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtPrecioUp"
@@ -134,7 +134,7 @@ tools:context=".ui.notifications.EditarProductos">
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:drawablePadding="10dp"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:paddingLeft="1dp"
                 android:ems="10"
                 android:drawableStart="@drawable/ic_pisto"
@@ -152,7 +152,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtUnidadDeMedidadUp"
@@ -163,7 +163,7 @@ tools:context=".ui.notifications.EditarProductos">
                 android:paddingLeft="1dp"
                 android:ems="10"
                 android:drawableStart="@drawable/ic_unidad"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:hint="Unidad de medida"
                 android:inputType="text"
                 android:textColor="@color/textColor"
@@ -180,7 +180,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:paddingRight="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textColorHint="@android:color/holo_blue_dark"
+            android:textColorHint="@android:color/black"
             android:spinnerMode="dropdown"
             style="@style/Widget.AppCompat.DropDownItem.Spinner"/>
 
@@ -193,7 +193,7 @@ tools:context=".ui.notifications.EditarProductos">
             android:paddingRight="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textColorHint="@android:color/holo_blue_dark"
+            android:textColorHint="@android:color/black"
             android:spinnerMode="dropdown"
             style="@style/Widget.AppCompat.DropDownItem.Spinner"
             />

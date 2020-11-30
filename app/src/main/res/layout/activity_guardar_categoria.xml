@@ -28,7 +28,7 @@ tools:context=".ui.home.GuardarCategoria">
             android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtCategoria"
@@ -36,7 +36,7 @@ tools:context=".ui.home.GuardarCategoria">
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:drawablePadding="10dp"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:drawableStart="@drawable/id_pass"
                 android:ems="10"
                 android:hint="Id Categoria"
@@ -54,7 +54,7 @@ tools:context=".ui.home.GuardarCategoria">
             android:layout_marginTop="70dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:textColorHint="@android:color/darker_gray">
+            android:textColorHint="@android:color/black">
 
             <EditText
                 android:id="@+id/edtNombreCategoria"
@@ -62,7 +62,7 @@ tools:context=".ui.home.GuardarCategoria">
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:drawablePadding="10dp"
-                android:drawableTint="@android:color/holo_blue_dark"
+                android:drawableTint="@android:color/black"
                 android:ems="10"
                 android:drawableStart="@drawable/txt_name"
                 android:hint="Nombre categoria"
@@ -82,7 +82,7 @@ tools:context=".ui.home.GuardarCategoria">
             android:layout_marginTop="150dp"
             android:layout_marginRight="20dp"
             android:spinnerMode="dropdown"
-            android:textColorHint="@android:color/holo_blue_dark" />
+            android:textColorHint="@android:color/black" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"

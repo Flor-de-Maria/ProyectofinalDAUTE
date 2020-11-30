@@ -22,6 +22,7 @@ tools:context=".Login">
     android:layout_height="wrap_content"
     android:drawablePadding="20dp"
     android:hint="Usuario"
+    android:textColorHint="#000"
 
     />
 
@@ -33,6 +34,7 @@ tools:context=".Login">
     android:layout_height="wrap_content"
     android:drawablePadding="20dp"
     android:hint="clave"
+    android:textColorHint="#000"
     />
 
 <Button

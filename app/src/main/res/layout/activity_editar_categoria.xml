@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="10dp"
-                    android:drawableTint="@android:color/holo_blue_dark"
+                    android:drawableTint="@android:color/primary_text_light"
                     android:drawableStart="@drawable/id_pass"
                     android:ems="10"
                     android:hint="Id Categoria"
@@ -64,14 +64,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="10dp"
-                    android:drawableTint="@android:color/holo_blue_dark"
+                    android:drawableTint="#020202"
                     android:ems="10"
                     android:drawableStart="@drawable/txt_name"
                     android:hint="Nombre categoria"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="@color/textColor"
-                    android:textSize="14dp" />
+                    android:textColor="#070707"
+                    android:textSize="14dp"
+                    android:textColorHint="@android:color/black"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
